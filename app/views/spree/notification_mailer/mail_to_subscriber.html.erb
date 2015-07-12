@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi subscriber, </h1>
+    <p>Price of product <%= @product.name %> has been changed from <%= @product.master.default_price.amount_was %> to <%= @product.master.default_price.amount %>
+    </p>
+
+    <p>Thanks for your interest.</p>
+  </body>
+</html>
